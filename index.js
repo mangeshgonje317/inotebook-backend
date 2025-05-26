@@ -10,7 +10,7 @@ app.use(express.json());
 
 // available routes
 app.use('/api/auth',require('./routes/auth'))
-app.use('/api/Notes',require('./routes/Notes'))
+app.use('/api/Notes',require('./routes/notes'))
 
 app.listen(port, () => {
   console.log(`iNotebook backend listening on port ${port}`)
